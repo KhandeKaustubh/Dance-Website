@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    font-size:2.5rem ;
+}                   
+nav ul li{
+   list-style: none;
+   padding: 12px 35px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: black;
+}
+nav ul{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+}
+#introsection{
+background-color: red;
+height: 443px;
+background: no-repeat center/cover url("../static/OIP.jpg");
+color: white;
+font-weight: bold;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: 53px;
+padding-bottom: 50px;
+font-family: 'Marcellus SC', serif;
+}
+#sponsersection{
+font-family: 'Marcellus SC', serif;
+background-color:#d9bfbf;
+height: 300px;
+/* display: flex; */
+padding-top: 12px;
+/* align-items: center; */
+/* justify-content: center; */
+text-align: center;
+}
+#footer{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+height: 100px;
+color: white;
+text-align: center;
+font-size: 18px;
+}
+nav{
+    background-color:#562525;
+    padding: 12px 12px;
+    font-family: 'Marcellus SC', serif;
+}
+#sponsersection h1{
+    padding: 22px;
+}
+.small{
+    padding: 12px 12px;
+    font-size: 52px; 
+}
+#mission{
+    height: 504px;
+    margin: auto 244px;
+    width: 71%;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 215px;
+    width: 30%;
+    margin: 18px 17px;
+    text-align: center;
+}
+.card h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mission h1{
+    text-align: center;
+    padding-top: 37px;
+    margin-bottom: 12px;
+}
+#logo img{
+    filter: invert(1);
+    height: 53px;
+    /* padding: 0px 1px;  */
+    /* margin-left: 12px; */
+    position: relative;
+    right: 12px;
+}
+#logo{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    color:white;
+    /* margin: 0px 14px; */
+    margin: 0px 30px;
+    /* position: relative; */
+    /* right: 10px; */
+    /* padding: 0px 1px; */
+    /* margin-bottom: 12px; */
+    font-size: 24px;
+}
+.opcard img{
+    height: 79px;
+}
+.opcard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 29px;
+    padding: 17px;
+}
+.spimage{
+    height: 75px;
+    padding: 0px 26px;
+}
+#sponsers{
+    margin-top: 27px;
+    padding: 0px;
+}

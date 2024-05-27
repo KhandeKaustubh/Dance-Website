@@ -1,0 +1,49 @@
+//- index.pug
+doctype html
+html
+  head
+    title KK's dance website 
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+       ul 
+         div#logo
+            img(src="../static/OIP (1).jpg", alt="")
+            | KDA
+         li #[a(href="/") Home] 
+         li #[a(href="/") About]
+         li #[a(href="/") Services] 
+         li #[a(href="/") Class info] 
+         li #[a(href="/") Contact us] 
+    section#introsection
+       div Welcome to KK's dance academy
+       div.small Eat Sleep Dance Repeat 
+    section#mission 
+       h1 Our mission 
+       div.card
+           h3 Dance perfection
+           div#card1.opcard
+              img(src="../static/card1.jpg", alt="/")
+              |This is the best dance website in the world
+       div.card
+           h3 Dance the way you like
+           div#card2.opcard
+              img(src="../static/card2.jpg", alt="/")
+              |This is the best dance website in the world
+       div.card
+           h3 Expert teaching
+           div#card3.opcard
+              img(src="../static/card3.jpg", alt="/")
+              |This is the best dance website in the world
+    section#sponsersection 
+       h1 Our Sponsers
+       div#sponsers
+          img(src="../static/apple.png", alt="sponsers" class="spimage")
+          img(src="../static/hp.png", alt="sponsers" class="spimage")
+          img(src="../static/microsoft.jpg", alt="sponsers" class="spimage")
+          img(src="../static/skype.jpg", alt="sponsers" class="spimage")
+    footer#footer 
+       |Copyright © 2022 kkacademy.com  |   All rights resrved
+    script
+      include ../static/index.js
